@@ -1,0 +1,5 @@
+site_name: Museoviraston QField-pilotti
+nav:
+  - Koti: index.md
+  - Lisätietoja: about.md
+theme: readthedocs
