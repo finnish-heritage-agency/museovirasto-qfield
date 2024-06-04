@@ -1,0 +1,6 @@
+site_name: Museoviraston QField-pilotti
+copyright: 'Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy.</a>'
+nav:
+  - Koti: index.md
+  - Alkuvalmistelut: alkuvalmistelut.md
+theme: readthedocs
