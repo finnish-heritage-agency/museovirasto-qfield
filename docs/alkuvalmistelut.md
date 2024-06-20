@@ -8,3 +8,6 @@ GeoPackage-tiedosto sisältää QGIS-projektin, sekä kaikki tarvittavat tasot j
 
 ![Projektin avaaminen GeoPackagesta](img/Projektin_avaaminen_geopackagesta.png)
 
+Jos et ole aiemmin asentanut QGISin lisäosan "QField Sync" niin tee se nyt. Jos et ole varma miten lisäosia lisätään voit katsoa seuraavan videon.
+
+![QField Sync lisäosan asentaminen](img/asenna_qfield_lisaosa.gif)
