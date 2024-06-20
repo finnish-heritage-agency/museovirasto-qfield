@@ -1,5 +1,9 @@
 # Alkuvalmistelut
 
-Asenna itsellesi tietokoneelle [QGISin viimeisin vakaa versio (LTR)][def]
+- Asenna itsellesi tietokoneelle [QGISin viimeisin vakaa versio (LTR)](https://qgis.org/fi/site/forusers/download.html).
+- Asenna puhelimeesi [QField-sovelluksen sovelluskaupastasi](https://qfield.org/).
+- Lataa GeoPackage-tiedosto [täältä](https://drive.google.com/file/d/1OJ9KtAqWKQuaK5Cl08BDRTUrdqtmAsgr/view?usp=sharing).
 
-[def]: https://qgis.org/fi/site/forusers/download.html
+GeoPackage-tiedosto sisältää QGIS-projektin, sekä kaikki tarvittavat tasot ja taulukot. Avaa QGIS tietokoneellasi ja raahaa lataamasi GeoPackage-tiedosto QGIS-ohjelmaan. Kun päästät irti tiedostosta aukeaa seuraava näkymä:
+
+![Projektin avaaminen GeoPackagesta](img/Projektin_avaaminen_geopackagesta.png)
