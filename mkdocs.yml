@@ -7,3 +7,4 @@ nav:
   - Projektin vienti QFieldiin: 2_vienti.md
 use_directory_urls: false
 theme: readthedocs
+  language: 'fi'
