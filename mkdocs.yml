@@ -3,4 +3,5 @@ copyright: 'Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy.</a>'
 nav:
   - Koti: index.md
   - Alkuvalmistelut: alkuvalmistelut.md
+  - Projektin vienti QFieldiin: vienti.md
 theme: readthedocs
