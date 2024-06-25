@@ -3,9 +3,8 @@ site_url: https://gispocoding.github.io/museovirasto-qfield/
 copyright: 'Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy.</a>'
 nav:
   - Koti: 0_index.md
-  - Alkuvalmistelut: 1_alkuvalmistelut.md
-  - Projektin vienti QFieldiin: 2_vienti.md
+  - 1. Alkuvalmistelut: 1_alkuvalmistelut.md
+  - 2. Projektin vienti QFieldiin: 2_vienti.md
 use_directory_urls: false
 theme: readthedocs
   language: 'fi'
-  logo: 'docs/img/Museovirasto_logo_fi_sv_en.png'
