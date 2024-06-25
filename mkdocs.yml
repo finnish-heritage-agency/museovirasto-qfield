@@ -1,7 +1,7 @@
 site_name: Museoviraston QField-pilotti
 copyright: 'Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy.</a>'
 nav:
-  - Koti: index.md
-  - Alkuvalmistelut: alkuvalmistelut.md
-  - Projektin vienti QFieldiin: vienti.md
+  - Koti: 0_index.md
+  - Alkuvalmistelut: 1_alkuvalmistelut.md
+  - Projektin vienti QFieldiin: 2_vienti.md
 theme: readthedocs
