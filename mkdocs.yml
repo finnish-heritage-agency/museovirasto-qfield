@@ -8,4 +8,4 @@ nav:
 use_directory_urls: false
 theme:
   name: readthedocs
-  logo: docs/img//Museovirasto_logo_fi_sv_en.png
+  logo: docs/logo.png
