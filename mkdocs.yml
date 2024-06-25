@@ -5,6 +5,7 @@ nav:
   - Koti: 0_index.md
   - 1. Alkuvalmistelut: 1_alkuvalmistelut.md
   - 2. Projektin vienti QFieldiin: 2_vienti.md
+  - 3. QFieldin käyttö: 3_qfield.md
 use_directory_urls: false
 theme:
   name: readthedocs

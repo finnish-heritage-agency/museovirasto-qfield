@@ -2,7 +2,7 @@
 
 - Asenna itsellesi tietokoneelle [QGISin viimeisin vakaa versio (LTR)](https://qgis.org/fi/site/forusers/download.html).
 - Asenna puhelimeesi [QField-sovelluksen sovelluskaupastasi](https://qfield.org/).
-- Lataa GeoPackage-tiedosto [täältä](https://drive.google.com/file/d/1OJ9KtAqWKQuaK5Cl08BDRTUrdqtmAsgr/view?usp=sharing).
+- Lataa GeoPackage-tiedosto [täältä](https://drive.google.com/file/d/1vIc9YKQNNXtgQrA9tOsJdoW118fb2VIx/view?usp=sharing).
 
 ## Projektin avaaminen
 GeoPackage-tiedosto sisältää QGIS-projektin, sekä kaikki tarvittavat tasot ja taulukot. Avaa QGIS tietokoneellasi ja raahaa lataamasi GeoPackage-tiedosto QGIS-ohjelmaan. Kun päästät irti tiedostosta niin uusi ikkuna aukeaa. Valitse tästä ainoastaan *QField-pilotti-projekti* (kuten kuvassa). Silloin QGIS avaa projektin sinulle suoraan, tasot ovat valmiiksi kytketty projektiin, joten tämän takia niitä ei lisätä erikseen.
@@ -30,7 +30,7 @@ Tässä kuvassa näet miltä projekti näyttää oletusasetuksilla.
 Ryhmässä "Koodistot" on myös taulukkotasoja, mutta nämä ovat stattisia tauluja, mistä haetaan tietoja yllä oleviin tasoihin, joten näihin ei kannata koskea. 
 
 ## Taustakartan lisääminen
-Jos haluat jotain tiettyjä taustakarttoja tai muita tasoja mukaan projektiin niin lisää ne tässä vaiheessa. Taustakartta on oletuksena OpenStreetMap, mutta tämä tulee varmaan useimmiten muokata jokskin muuksi. Lisää taso jonka haluat taustakartaksi ja avaa projektin ominaisuudet (Projekti-> Ominaisuudet -> QField). Valitse "Cable export"-välilehti. Näet "Base map"-osion missä voi valita taustakarttatasoa. Alla olevassa kuvassa tämä on OpenStreetMap niin voit vaihtaa sen. Voit esimerkiksi tarvita ilmakuvan, silloin vaihdat siihen ilmakuvatason. Tarkista myös, että "Base map"-osion yläpuolella, missä on listattuna tasot, niin oma ilmakuvasi "Action" on asetettu "Copy"-tilaan, milloin tiedostoa kopioidaan mukaan QFieldiin, eli voit käyttää tasoa myös ilman verkkoyhteyttä. Muista tallentaa projektia lopuksi.
+Jos haluat jotain tiettyjä taustakarttoja tai muita tasoja mukaan projektiin niin lisää ne tässä vaiheessa. Taustakartta on oletuksena OpenStreetMap, mutta tämä tulee varmaan useimmiten muokata jokskin muuksi. Lisää taso jonka haluat taustakartaksi ja avaa projektin ominaisuudet (Projekti-> Ominaisuudet -> QField). Valitse "Cable export"-välilehti. Näet "Base map"-osion missä voi valita taustakarttatasoa. Alla olevassa kuvassa tämä on OpenStreetMap niin voit vaihtaa sen. Voit esimerkiksi tarvita ilmakuvan, silloin vaihdat siihen ilmakuvatason. Tarkista myös, että "Base map"-osion yläpuolella, missä on listattuna tasot, niin oma ilmakuvasi "Action" on asetettu "Offine editing"-tilaan, milloin tiedostoa kopioidaan mukaan QFieldiin, eli voit käyttää tasoa myös ilman verkkoyhteyttä. Suosittelemme, että lataat itsellesi paikallisesti rasteriaineiston (esim. geotiff-tiedoston), koska silloin voit sujuvasti käyttää taustakarttaa QFieldissä ilman verkkoyhteyttä. Muista tallentaa projektia lopuksi.
 
 ![Projektin ominaisuudet](img/Projektin_ominaisuudet.png)
 
