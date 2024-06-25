@@ -8,4 +8,4 @@ nav:
 use_directory_urls: false
 theme:
   name: readthedocs
-  logo: docs/logo.png
+  logo: img/logo.png
