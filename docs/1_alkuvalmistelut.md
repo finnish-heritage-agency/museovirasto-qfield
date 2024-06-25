@@ -27,7 +27,7 @@ Tässä kuvassa näet miltä projekti näyttää oletusasetuksilla.
 | Alue | Polygoni| Pääkohteilla pitäisi aina olla jokin aluemainen geometria myös, mikä piirretään tälle tasolle|
 | Valokuvat| Taulukko| Pääkohteilla ja alakohteilla voi olla liittenä valokuvia, tiedostopolku valokuviin tallennetaan tähän taulukkoon|
 
-Ryhmässä "Koodistot" on myös taulukkotasoja, mutta nämä ovat stattisia tauluja, mistä haetaan tietoja yllä oleviin tasoihin, joten näihin ei kannata koskea. 
+Ryhmässä "Koodistot" on myös taulukkotasoja, mutta nämä ovat stattisia tauluja, mistä haetaan tietoja yllä oleviin tasoihin, joten näihin ei kannata koskea. Sieltä voi kuitenkin katsoa, mitä koodeja on käytössä.
 
 ## Taustakartan lisääminen
 Jos haluat jotain tiettyjä taustakarttoja tai muita tasoja mukaan projektiin niin lisää ne tässä vaiheessa. Taustakartta on oletuksena OpenStreetMap, mutta tämä tulee varmaan useimmiten muokata jokskin muuksi. Lisää taso jonka haluat taustakartaksi ja avaa projektin ominaisuudet (Projekti-> Ominaisuudet -> QField). Valitse "Cable export"-välilehti. Näet "Base map"-osion missä voi valita taustakarttatasoa. Alla olevassa kuvassa tämä on OpenStreetMap niin voit vaihtaa sen. Voit esimerkiksi tarvita ilmakuvan, silloin vaihdat siihen ilmakuvatason. Tarkista myös, että "Base map"-osion yläpuolella, missä on listattuna tasot, niin oma ilmakuvasi "Action" on asetettu "Offine editing"-tilaan, milloin tiedostoa kopioidaan mukaan QFieldiin, eli voit käyttää tasoa myös ilman verkkoyhteyttä. Suosittelemme, että lataat itsellesi paikallisesti rasteriaineiston (esim. geotiff-tiedoston), koska silloin voit sujuvasti käyttää taustakarttaa QFieldissä ilman verkkoyhteyttä. Muista tallentaa projektia lopuksi.
