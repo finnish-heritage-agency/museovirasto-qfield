@@ -1,0 +1,1 @@
+# Projektin vienti QFieldiin
