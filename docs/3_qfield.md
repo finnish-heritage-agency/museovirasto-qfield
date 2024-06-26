@@ -7,12 +7,14 @@ Valitse "Avaa paikallinen tiedosto" ("Open local file") ja etsi siirtämäsi QGI
 
 Nyt voit lisätä pääkohteen. Laita ensin muokkaustila päälle ja valitse sitten pääkohteen sijaintia.
 
- ![Muokkaustila](img/Muokkaustila.png)
+![Muokkaustila](img/Muokkaustila.png){:width="200px"}
 
 Täytä sitten kentät QFieldissä. Pieni osa on pakollisia tietoja, muita voi lisätä myöhemmin, vaikkapa QGISin puolella. Tallenna lopuksi piste.
 
-![Pääkohteen lisäämistä](img/Lisaa_paakohde.gif)
+![Pääkohteen lisäämistä](img/Lisaa_paakohde.gif){:width="200px"}
 
 Voit lisätä pääkohteelle myös useamman alakohteen.
 
- ![Alakohteen lisäämistä](img/Lisaa_alakohde.gif)
+![Alakohteen lisäämistä](img/Lisaa_alakohde.gif){:width="200px"}
+
+On myös mahdollista luoda
