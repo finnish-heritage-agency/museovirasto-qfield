@@ -3,7 +3,7 @@
 - Asenna itsellesi tietokoneelle [QGISin viimeisin vakaa versio (LTR)](https://qgis.org/fi/site/forusers/download.html).
 - Asenna puhelimeesi [QField-sovelluksen sovelluskaupastasi](https://qfield.org/).
 - Lataa GeoPackage-tiedosto: 
-  - [QField-pilotti_2024 (Tyhjä)](ttps://mverkkodatashare.blob.core.windows.net/share/QField-pilotti_2024.zip).
+  - [QField-pilotti_2024 (Tyhjä)](https://mverkkodatashare.blob.core.windows.net/share/QField-pilotti_2024.zip).
   - [QField-pilotti_2024 (Muinaisjäännösrekisterin aineistoilla):](https://mverkkodatashare.blob.core.windows.net/share/QField-pilotti_2024_mjreki.zip)
 
 ## Projektin avaaminen
