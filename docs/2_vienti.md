@@ -5,7 +5,7 @@ QGIS-projekti viedään QFieldiin kopioimalla tiedostoja tietokoneelta puhelimel
 
 ![Pakkaaminen QFieldiin](img/qfield_pakkaaminen.gif)
 
-Jos et ole vielä kytkennyt oman puhelimen tietokoneeseen niin tee se. Käy sitten kopioimassa kaikki tiedostot jotka äsken loit lisäosan avulla ja siirrä ne puhelimeen, paikkaan jonka itse muistat. 
+Jos et ole vielä kytkennyt oman puhelimen tietokoneeseen niin tee se. Käy sitten kopioimassa kaikki tiedostot jotka äsken loit lisäosan avulla ja siirrä ne puhelimeen. Android -puhelimella tiedostot tallennetaan oletuksena kansioon: <drive>:/Android/data/ch.opengis.qfield/files/Imported Projects/ 
 
 ---
 **Huom!**
