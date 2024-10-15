@@ -1,15 +1,15 @@
 # Tervetuloa Museoviraston QField-kokeilun ohjesivulle.
 
-Täältä löytyy ohjeita, miten QField-sovellusta voidaan ottaa käyttöön Museoviraston Muinaisjäännösrekisterin inventointiin. 
+Täältä löytyy ohjeita, miten QField-sovellusta voidaan käyttää muinaisjäännösrekisterin tietojen selailuun ja arkeologisten kohteiden dokumentointiin maastossa.
 
-Työnkulku toimisi suunnilleen näin
+Työnkulku toimii suunnilleen näin
 
-1. Avataa QGIS-projekti tietokoneella QGIS-ohjelmistossa.
-2. Lisätään itselle tärkeät taustakartat
-3. Viedään ulos QFieldiin yhteensopiva projekti
-4. Siirretään tiedostoja puhelimelle
-5. Avataan projekti QFieldissä puhelimella
-6. Kerätään tietoja
-7. Siirretään tiedosotoja takaisin tietokoneella
-8. Tehdään tarvittavat lisäykset ja muutokset QGISissä
-9. Viedään ulos QGISistä haluamaan muotoon (esimerkiksi .xlsx, .csv, .gpkg)
+1. Avaa QGIS-projekti tietokoneella QGIS-ohjelmistossa.
+2. Lisää oleelliset taustakartat ja muut aineistot
+3. Vie ulos QFieldiin yhteensopiva projekti
+4. Siirrä tiedostot mobiililaitteelle
+5. Avaa projekti QFieldissä mobiililaitteella
+6. Kerää tietoja
+7. Siirrä tiedostot takaisin tietokoneelle
+8. Tee tarvittavat lisäykset ja muutokset QGISissä
+9. Tallenna tiedot QGISistä haluamaan muotoon (esimerkiksi .xlsx, .csv, .gpkg)
