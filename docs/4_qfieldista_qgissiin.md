@@ -1,6 +1,6 @@
 # Siirry QFieldistä QGISiin
 
-Kun olet käynyt maastossa ja kerännyt tietoja, voit siirtää tietoja takaisin QGISiin.
+Maastossa kerätyt tiedot voidaan siirtää takaisin QGISiin.
 
 Yhdistä puhelin tietokoneeseen ja kopioi koko projektin kansion puhelimesta tietokoneelle.
 
