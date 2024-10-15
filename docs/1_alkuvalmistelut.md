@@ -22,13 +22,13 @@ Tässä kuvassa näet miltä projekti näyttää oletusasetuksilla.
 
 ![QGIS-projekti](img/projektinakyma.png)
 
-**Tasot**-näkymässä näet oletuksena seuraavat tasot
+**Tasot**-näkymässä näet oletuksena seuraavat tasot, jotka noudattavat pääosin muinaisjäännösrekisterin kohteen tietojen rakennetta.
 
 | Taso | Tyyppi | Selite |
 |----------|----------|----------|
-| Pääkohde| Piste| Jokaisella inventointikohteella on ainoastaan yksi pääkohde|
+| Pääkohde| Piste| Jokaisella kohteella on ainoastaan yksi pääkohde|
 | Alakohteet | Piste| Pääkohteilla voi olla useampia alakohteita. Alakohde liittyy aina yhteen pääkohteeseen|
-| Alue | Polygoni| Pääkohteilla pitäisi aina olla jokin aluemainen geometria myös, mikä piirretään tälle tasolle|
+| Alue | Polygoni| Pääkohteilla tulisi olla aluerajaus, joka tehdään tälle tasolle|
 | Valokuvat| Taulukko| Pääkohteilla ja alakohteilla voi olla liittenä valokuvia, tiedostopolku valokuviin tallennetaan tähän taulukkoon|
 
 Ryhmässä "Koodistot" on taulukoita, joista haetaan tietoja muille tasoille, eikä niitä tule muokata tai poistaa. Taulukoista voi kuitenkin katsoa, mitä koodeja on käytössä.
