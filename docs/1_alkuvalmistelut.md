@@ -9,12 +9,12 @@ Lataa GeoPackage-tiedosto:
 - [QField-pilotti_2024 (Muinaisjäännösrekisterin aineistoilla):](https://mverkkodatashare.blob.core.windows.net/share/QField-pilotti_2024_mjreki.zip)
 
 ## Projektin avaaminen
-GeoPackage-tiedosto sisältää QGIS-projektin, sekä kaikki tarvittavat tasot ja taulukot. Avaa QGIS tietokoneellasi ja raahaa lataamasi GeoPackage-tiedosto QGIS-ohjelmaan. Kun päästät irti tiedostosta niin uusi ikkuna aukeaa. Valitse tästä ainoastaan *QField-pilotti-projekti* (kuten kuvassa). Silloin QGIS avaa projektin sinulle suoraan, tasot ovat valmiiksi kytketty projektiin, joten tämän takia niitä ei lisätä erikseen.
+GeoPackage-tiedosto sisältää QGIS-projektin sekä kaikki tarvittavat tasot ja taulukot. Avaa QGIS tietokoneellasi ja raahaa lataamasi GeoPackage-tiedosto QGIS-ohjelmaan. Kun päästät irti tiedostosta valitse avautuvasta pop-up ikkunasta ainoastaan *QField-pilotti-projekti* (kuten kuvassa). Tällöin QGIS avaa projektin ja kaikki tarvittavat tasot suoraan. 
 
 ![Projektin avaaminen GeoPackagesta](img/Projektin_avaaminen_geopackagesta.png)
 
 ## Lisäosan asentaminen
-Jos et ole aiemmin asentanut QGISin lisäosan "QField Sync" niin tee se nyt. Jos et ole varma miten lisäosia lisätään voit katsoa seuraavan videon.
+Jos et ole aiemmin asentanut QGISin lisäosaa "QField Sync" tee se nyt. Jos et ole varma miten lisäosia lisätään voit katsoa seuraavan videon.
 
 ![QField Sync lisäosan asentaminen](img/asenna_qfield_lisaosa.gif)
 
@@ -22,16 +22,16 @@ Tässä kuvassa näet miltä projekti näyttää oletusasetuksilla.
 
 ![QGIS-projekti](img/projektinakyma.png)
 
-**Tasot**-näkymässä näet, seuraavia tasoja
+**Tasot**-näkymässä näet oletuksena seuraavat tasot
 
-| Taso | Muoto | Selite |
+| Taso | Tyyppi | Selite |
 |----------|----------|----------|
 | Pääkohde| Piste| Jokaisella inventointikohteella on ainoastaan yksi pääkohde|
 | Alakohteet | Piste| Pääkohteilla voi olla useampia alakohteita. Alakohde liittyy aina yhteen pääkohteeseen|
 | Alue | Polygoni| Pääkohteilla pitäisi aina olla jokin aluemainen geometria myös, mikä piirretään tälle tasolle|
 | Valokuvat| Taulukko| Pääkohteilla ja alakohteilla voi olla liittenä valokuvia, tiedostopolku valokuviin tallennetaan tähän taulukkoon|
 
-Ryhmässä "Koodistot" on myös taulukkotasoja, mutta nämä ovat stattisia tauluja, mistä haetaan tietoja yllä oleviin tasoihin, joten näihin ei kannata koskea. Sieltä voi kuitenkin katsoa, mitä koodeja on käytössä.
+Ryhmässä "Koodistot" on taulukoita, joista haetaan tietoja muille tasoille, eikä niitä tule muokata tai poistaa. Taulukoista voi kuitenkin katsoa, mitä koodeja on käytössä.
 
 ## Taustakartan lisääminen
 Jos haluat jotain tiettyjä taustakarttoja tai muita tasoja mukaan projektiin niin lisää ne tässä vaiheessa. Taustakartta on oletuksena OpenStreetMap, mutta tämä tulee varmaan useimmiten muokata jokskin muuksi. Lisää taso jonka haluat taustakartaksi ja avaa projektin ominaisuudet (Projekti-> Ominaisuudet -> QField). Valitse "Cable export"-välilehti. 
