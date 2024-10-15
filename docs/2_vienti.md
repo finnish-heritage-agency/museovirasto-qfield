@@ -1,11 +1,11 @@
 # Projektin vienti QFieldiin
 
 ## Projektin pakkaaminen
-QGIS-projekti viedään QFieldiin kopioimalla tiedostoja tietokoneelta puhelimelle. Ensin pitää kuitenkin tehdä pakkaaminen QField Sync-lisäosan kautta. Avaa "Package for QField" työkalupalkista tai valikosta **Lisäosta-> QFieldSync-> Package for QField**. Valitse tyhjä kansio jonkan muistat ja paina **"Create"**. Voit katsoa esimerkki alla olevasta videosta. 
+QGIS-projekti viedään QFieldiin kopioimalla tiedostot tietokoneelta puhelimelle. Ensin pitää kuitenkin pakata QField Sync-lisäosan avulla. Pakkaa työtila valitsemalla "Package for QField" työkalupalkista tai valikosta **Lisäosta-> QFieldSync-> Package for QField**. Valitse QField-pakettia varten tyhjä kansio jonkan muistat ja paina **"Create"**. Voit katsoa esimerkki alla olevasta videosta. 
 
 ![Pakkaaminen QFieldiin](img/qfield_pakkaaminen.gif)
 
-Jos et ole vielä kytkennyt oman puhelimen tietokoneeseen niin tee se. Käy sitten kopioimassa kaikki tiedostot jotka äsken loit lisäosan avulla ja siirrä ne puhelimeen. Android -puhelimella tiedostot tallennetaan oletuksena kansioon: <drive>:/Android/data/ch.opengis.qfield/files/Imported Projects/ 
+Voit siirtää tiedostot mobiililaitteelle esimerkiksi kaapelilla tai QFieldCloud-pilvipalvelun avulla. Kaapelilla tiedostojen siirto tapahtuu yhdistämällä mobiililaite tietokoneeseen ja siirtämällä valmis QField-paketti mobiililaitteelle. Android -laitteilla QField -projektit tallennetaan oletuksena kansioon: :/Android/data/ch.opengis.qfield/files/Imported Projects/ 
 
 ---
 **Huom!**
