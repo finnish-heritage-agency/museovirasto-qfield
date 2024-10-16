@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://gispocoding.github.io/museovirasto-qfield/1_alkuvalmistelut.html" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>1. Alkuvalmistelut - Museoviraston QField-pilotti</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "1. Alkuvalmistelut";
+        var mkdocs_page_input_path = "1_alkuvalmistelut.md";
+        var mkdocs_page_url = "/museovirasto-qfield/1_alkuvalmistelut.html";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> Museoviraston QField-pilotti
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="0_index.html">Koti</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">1. Alkuvalmistelut</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#projektin-avaaminen">Projektin avaaminen</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lisaosan-asentaminen">Lisäosan asentaminen</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#karttatasojen-lisaaminen">Karttatasojen lisääminen</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="2_vienti.html">2. Projektin vienti QFieldiin</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="3_qfield.html">3. QFieldin käyttö</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="4_qfieldista_qgissiin.html">4. QFieldistä QGISiin</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">Museoviraston QField-pilotti</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">1. Alkuvalmistelut</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="alkuvalmistelut">Alkuvalmistelut</h1>
+<ul>
+<li>Asenna itsellesi tietokoneelle <a href="https://qgis.org/fi/site/forusers/download.html">QGISin viimeisin vakaa versio (LTR)</a>.</li>
+<li>Asenna puhelimeesi <a href="https://qfield.org/">QField-sovelluksen sovelluskaupastasi</a>.</li>
+</ul>
+<p>Lataa GeoPackage-tiedosto: </p>
+<ul>
+<li><a href="https://mverkkodatashare.blob.core.windows.net/share/QField-pilotti_2024.zip">QField-pilotti_2024 (Tyhjä)</a>.</li>
+<li><a href="https://mverkkodatashare.blob.core.windows.net/share/QField-pilotti_2024_mjreki.zip">QField-pilotti_2024 (Muinaisjäännösrekisterin aineistoilla):</a></li>
+</ul>
+<h2 id="projektin-avaaminen">Projektin avaaminen</h2>
+<p>GeoPackage-tiedosto sisältää QGIS-projektin sekä kaikki tarvittavat tasot ja taulukot. Avaa QGIS tietokoneellasi ja raahaa lataamasi GeoPackage-tiedosto QGIS-ohjelmaan. Kun päästät irti tiedostosta valitse avautuvasta pop-up ikkunasta ainoastaan <em>QField-pilotti-projekti</em> (kuten kuvassa). Tällöin QGIS avaa projektin ja kaikki tarvittavat tasot suoraan. </p>
+<p><img alt="Projektin avaaminen GeoPackagesta" src="img/Projektin_avaaminen_geopackagesta.png" /></p>
+<h2 id="lisaosan-asentaminen">Lisäosan asentaminen</h2>
+<p>Jos et ole aiemmin asentanut QGISin lisäosaa "QField Sync" tee se nyt. Jos et ole varma miten lisäosia lisätään voit katsoa seuraavan videon.</p>
+<p><img alt="QField Sync lisäosan asentaminen" src="img/asenna_qfield_lisaosa.gif" /></p>
+<p>Tässä kuvassa näet miltä projekti näyttää oletusasetuksilla. </p>
+<p><img alt="QGIS-projekti" src="img/projektinakyma.png" /></p>
+<p><strong>Tasot</strong>-näkymässä näet oletuksena seuraavat tasot, jotka noudattavat pääosin muinaisjäännösrekisterin kohteen tietojen rakennetta.</p>
+<table>
+<thead>
+<tr>
+<th>Taso</th>
+<th>Tyyppi</th>
+<th>Selite</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pääkohde</td>
+<td>Piste</td>
+<td>Jokaisella kohteella on ainoastaan yksi pääkohde</td>
+</tr>
+<tr>
+<td>Alakohteet</td>
+<td>Piste</td>
+<td>Pääkohteilla voi olla useampia alakohteita. Alakohde liittyy aina yhteen pääkohteeseen</td>
+</tr>
+<tr>
+<td>Alue</td>
+<td>Polygoni</td>
+<td>Pääkohteilla tulisi olla aluerajaus, joka tehdään tälle tasolle</td>
+</tr>
+<tr>
+<td>Valokuvat</td>
+<td>Taulukko</td>
+<td>Pääkohteilla ja alakohteilla voi olla liittenä valokuvia, tiedostopolku valokuviin tallennetaan tähän taulukkoon</td>
+</tr>
+</tbody>
+</table>
+<p>Ryhmässä "Koodistot" on taulukoita, joista haetaan tietoja muille tasoille, eikä niitä tule muokata tai poistaa. Taulukoista voi kuitenkin katsoa, mitä koodeja on käytössä.</p>
+<h2 id="karttatasojen-lisaaminen">Karttatasojen lisääminen</h2>
+<p>Voit lisätä projektiin haluamasi karttatasot tai taustakartat projektiin. Projektiin on oletuksena lisätty taustakartaksi OpenStreetMap-rajapinta, mutta tämä on yleensä syytä vaihtaa johonkin muuhun.</p>
+<p>QField tukee aineistojen tuontia monipuolisesti eri lähteistä, joten voit hyödyntää maastossa lähes mitä tahansa paikkatietorajapintoja ja -aineistoja. Karttatasojen lähdettä valittaessa huomioi kuitenkin mahdolliset käytännön rajoitteet - esimerkiksi rajapintojen käyttö maastossa vaatii toimivat yhteydet.</p>
+<p>Lisätäksesi karttataso rajapinnasta sinun tulee ensimmäiseksi lisätä rajapinta QGISsiin. Jos et ole lisännyt kyseistä rajapintaa aiemmin, muodosta ensin yhteys rajapintaan. Uuden yhteyden muodostamiseksi valitse Browser-ruudusta rajapinnan tyyppi (yleensä WMS/WMTS tai WFS / OGC API - Features), klikkaa sitä oikealla hiirennapilla, valitse "New Connection" ja syötä avautuvaan ikkunaan rajapinnan nimi ja osoite. Kun yhteys on muodostettu, voit avata rajapinnasta valitsemasi karttatason raahamalla sen QGISsin karttaikkunaan. </p>
+<p>Erityisesti rajapinnasta tuotujen karttatasojen osalta on syytä tarkistaa QFieldSyncin asetukset karttatasojen paketoinnista QFieldiä varten. Asetuksiin pääset käsiksi QFieldSyncin asetuksista (Configure Current Project), jonka löydät Plugins valikosta tai QFieldSyncin "Package Project for QField" -toiminnon yhteydestä. QFieldSyncin asetusten "Cable Export" -välilehdeltä löydät taulukon kaikista projektin tasoista, jonka Action sarakkeesta voit valita mitä tasoille tehdään pakattaessa projekti QFieldiä varten. Rajapinnasta tuoduille tasoille QFieldSync tarjoaa kaksi vaihtoehdoiksi "Directly access data source" ja "Remove from project". "Directly access data source" säilyttää tason QField-projektissa ja käyttää rajapintaa verkon yli. "Remove from project" poistaa rajapinnan kautta tuodun tason siirron yhteydessä. Paikallisesta tiedostosta tuoduille karttatasoille vastaavat valinnat ovat tapauksesta riippuen "Copy", "Keep existing", "Offline editing" ja "Remove from project".</p>
+<p>Cable Export valikon Base Map osiosta voit halutessasi valita yhden karttatason 'taustakartaksi', josta ladataan QField-projektiin ilman verkkoyhteyttä käytettävä paikallinen kopio, joka kulkee projektin mukana. Voit valita ladattavan alueen keskittämällä QGISsin karttaikkunan halutulle alueelle ennen työtilan paketointia QFieldiin. Voit poistaa Base Mapin käytöstä, ellei sille ole tarvetta. </p>
+<p><img alt="Projektin ominaisuudet" src="img/Projektin_ominaisuudet.png" /></p>
+<p>QGIS-projekti viedään seuraavaksi QField-projektiksi omaan puhelimeen. Käytännössä QGIS-projektista tehdään kopio, jota QField-sovellus voi käyttää.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="0_index.html" class="btn btn-neutral float-left" title="Koti"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="2_vienti.html" class="btn btn-neutral float-right" title="2. Projektin vienti QFieldiin">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy.</a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="0_index.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="2_vienti.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
