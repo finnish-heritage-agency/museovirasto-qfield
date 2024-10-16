@@ -33,15 +33,17 @@ Tässä kuvassa näet miltä projekti näyttää oletusasetuksilla.
 
 Ryhmässä "Koodistot" on taulukoita, joista haetaan tietoja muille tasoille, eikä niitä tule muokata tai poistaa. Taulukoista voi kuitenkin katsoa, mitä koodeja on käytössä.
 
-## Taustakartan lisääminen
-Jos haluat jotain tiettyjä taustakarttoja tai muita tasoja mukaan projektiin niin lisää ne tässä vaiheessa. Taustakartta on oletuksena OpenStreetMap, mutta tämä tulee varmaan useimmiten muokata jokskin muuksi. Lisää taso jonka haluat taustakartaksi ja avaa projektin ominaisuudet (Projekti-> Ominaisuudet -> QField). Valitse "Cable export"-välilehti. 
+## Karttatasojen lisääminen
+Voit lisätä projektiin haluamasi karttatasot tai taustakartat projektiin. Projektiin on oletuksena lisätty taustakartaksi OpenStreetMap-rajapinta, mutta tämä on yleensä syytä vaihtaa johonkin muuhun.
 
-Näet "Base map"-osion missä voi valita taustakarttatasoa. Alla olevassa kuvassa tämä on OpenStreetMap niin voit vaihtaa sen. Voit esimerkiksi tarvita ilmakuvan, silloin vaihdat siihen ilmakuvatason. Käytännössä taustakarttasi tallenntuu nyt pakkauksen jälkeen geopackage-tiedostoon joka kulkee projektin mukana. 
+QField tukee aineistojen tuontia monipuolisesti eri lähteistä, joten voit hyödyntää maastossa lähes mitä tahansa paikkatietorajapintoja ja -aineistoja. Karttatasojen lähdettä valittaessa huomioi kuitenkin mahdolliset käytännön rajoitteet - esimerkiksi rajapintojen käyttö maastossa vaatii toimivat yhteydet.
 
-Tarkista myös "Base map"-osion yläpuolella, "Tasot"-kohtaa. Jos käytössäsi on rajapinnan kautta tulevaa taustakarttaa niin suosittelemme laittamaan taustakarttatasosi "Action" tilaan "Remove from project". Silloin tasoa ei haeta rajapinnan kautta QFieldissa, mutta koska Base Map on kytketty päälle, niin taustakarttaa kuitenkin näkyy.
+Lisätäksesi karttataso rajapinnasta sinun tulee ensimmäiseksi lisätä rajapinta QGISsiin. Jos et ole lisännyt kyseistä rajapintaa aiemmin, muodosta ensin yhteys rajapintaan. Uuden yhteyden muodostamiseksi valitse Browser-ruudusta rajapinnan tyyppi (yleensä WMS/WMTS tai WFS / OGC API - Features), klikkaa sitä oikealla hiirennapilla, valitse "New Connection" ja syötä avautuvaan ikkunaan rajapinnan nimi ja osoite. Kun yhteys on muodostettu, voit avata rajapinnasta valitsemasi karttatason raahamalla sen QGISsin karttaikkunaan. 
 
-Jos tarvitset useampia tasoja niin hyvä käytäntö olisi rajata alue tarkkaan ja ladata niin rasteriaineistot paikallisesti (eli ei rajapinnan kautta). "Action"-tila pitää näille tasoille olla "Offline editing"-tilassa, kuten kaikki muutkin tasot.
+Erityisesti rajapinnasta tuotujen karttatasojen osalta on syytä tarkistaa QFieldSyncin asetukset karttatasojen paketoinnista QFieldiä varten. Asetuksiin pääset käsiksi QFieldSyncin asetuksista (Configure Current Project), jonka löydät Plugins valikosta tai QFieldSyncin "Package Project for QField" -toiminnon yhteydestä. QFieldSyncin asetusten "Cable Export" -välilehdeltä löydät taulukon kaikista projektin tasoista, jonka Action sarakkeesta voit valita mitä tasoille tehdään pakattaessa projekti QFieldiä varten. Rajapinnasta tuoduille tasoille QFieldSync tarjoaa kaksi vaihtoehdoiksi "Directly access data source" ja "Remove from project". "Directly access data source" säilyttää tason QField-projektissa ja käyttää rajapintaa verkon yli. "Remove from project" poistaa rajapinnan kautta tuodun tason siirron yhteydessä. Paikallisesta tiedostosta tuoduille karttatasoille vastaavat valinnat ovat tapauksesta riippuen "Copy", "Keep existing", "Offline editing" ja "Remove from project".
+
+Cable Export valikon Base Map osiosta voit halutessasi valita yhden karttatason 'taustakartaksi', josta ladataan QField-projektiin ilman verkkoyhteyttä käytettävä paikallinen kopio, joka kulkee projektin mukana. Voit valita ladattavan alueen keskittämällä QGISsin karttaikkunan halutulle alueelle ennen työtilan paketointia QFieldiin. Voit poistaa Base Mapin käytöstä, ellei sille ole tarvetta. 
 
 ![Projektin ominaisuudet](img/Projektin_ominaisuudet.png)
 
-QGIS-projekti viedään seuraavaksi QField-projektiksi omaan puhelimeen. Voidaan ajatella, että QGIS-projektista tehdään kopio jonka QField-sovellus voi käyttää. QField-sovelluksessa kerätään tietoja ja tämän jälkeen viedään tietoja takaisin tietokoneelle QGISiin, missä voi muokata tietoja ja lopuksi voi viedä ulos tietoja QGISistä esimerkiksi taulukkomuotoon.
+QGIS-projekti viedään seuraavaksi QField-projektiksi omaan puhelimeen. Käytännössä QGIS-projektista tehdään kopio, jota QField-sovellus voi käyttää.
